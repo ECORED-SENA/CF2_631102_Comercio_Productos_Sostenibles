@@ -21,10 +21,10 @@
               p La propuesta comercial es importante por varias razones:
               p.mb-0 #[span.txt-color1 ●] Formaliza el proceso comercial, es decir, muestra estructura por parte de la empresa y el vendedor.      
               p.mb-0 #[span.txt-color1 ●] Sirve de soporte para cada una de las partes (empresa-cliente) en el momento de tener inquietudes respecto a lo ofrecido/ adquirido y permite ser una herramienta de comparación entre alternativas por parte del cliente.
-    p.mb-5 El responsable de realizar la propuesta comercial es el vendedor, no obstante, en algunas empresas muy organizadas cuentan con plantillas (templates) o proforma que se crean para estandarizar y facilitar la labor comercial.
+    p.mb-5 El responsable de realizar la propuesta comercial es el vendedor, no obstante, en algunas empresas muy organizadas cuentan con plantillas #[i (templates)] o proforma que se crean para estandarizar y facilitar la labor comercial.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hjNS3NwWYWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-8.bg-color8
         .p-4

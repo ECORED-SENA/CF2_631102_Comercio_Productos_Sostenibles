@@ -159,14 +159,14 @@ export default {
     {
       tema: 'Comunicación comercial',
       referencia:
-        'En prosa Pódcast. (2020). Episodio 008 - Comunicación comercial',
+        'En prosa Pódcast. (2020). Episodio 008 - Comunicación comercial.',
       tipo: 'Podcast',
       link: 'https://youtu.be/j5Of-sHmgP0',
     },
     {
       tema: 'Propuesta Comercial',
       referencia:
-        'Asesor Empresario - Asesuisa. (2021). Metodología - Qué debe de incluir una propuesta comercial exitosa ',
+        'Asesor Empresario - Asesuisa. (2021). Metodología - Qué debe de incluir una propuesta comercial exitosa.',
       tipo: 'Video',
       link:
         'Asesor Empresario - Asesuisa. (2021). Metodología - Qué debe de incluir una propuesta comercial exitosa',

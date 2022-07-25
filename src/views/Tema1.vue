@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span(style="color:#FFFFFF") 1
       h1 #[i Marketing Mix]
-    p.mb-5  La #[span.txt-color1 mezcla de mercadeo] (Marketing Mix en inglés) conocida comercialmente como las cuatro P (producto, precio, plaza y promoción), la cual representa la base conceptual para la implementación de las estrategias de mercadeo, fueron creadas por Jerome McCarthy alrededor del año 1970 y son cuatro variables sobre las cuales se fundamentan el qué hacer del proceso de mercadeo dentro de las empresas; en este sentido, un reto para las personas de mercadeo consiste en encontrar la mejor combinación posible, asegurando que las cuatro P se incorporen en el día a día de la gestión comercial de la compañía.
+    p.mb-5  La #[span.txt-color1 mezcla de mercadeo]  (#[i Marketing Mix] en inglés) conocida comercialmente como las cuatro P (producto, precio, plaza y promoción), la cual representa la base conceptual para la implementación de las estrategias de mercadeo, fueron creadas por Jerome McCarthy alrededor del año 1970 y son cuatro variables sobre las cuales se fundamentan el qué hacer del proceso de mercadeo dentro de las empresas; en este sentido, un reto para las personas de mercadeo consiste en encontrar la mejor combinación posible, asegurando que las cuatro P se incorporen en el día a día de la gestión comercial de la compañía.
     .row.justify-content-center.mb-5
       .col-lg-9.bg-color1
         .p-4
@@ -105,62 +105,62 @@
               tr
                 th #[b Moneda]
                 th #[b País (es) de uso]
-                th #[b Notación – Código ISO]
+                th #[b Notación - Código ISO]
             tbody
               tr
                 td 
-                  p.text-center.mb-0 Peso colombiano
+                  p.text-center.mb-0 Peso colombiano.
                 td 
-                  p.text-center.mb-0 Colombia
+                  p.text-center.mb-0 Colombia.
                 td 
                   p.text-center.mb-0 #[b COP]
               tr(style="background-color: #FFFAE7")
                 td 
-                  p.text-center.mb-0 Dólar estadounidense
+                  p.text-center.mb-0 Dólar estadounidense.
                 td 
-                  p.text-center.mb-0 Estados Unidos
+                  p.text-center.mb-0 Estados Unidos.
                 td 
                   p.text-center.mb-0 #[b USD]
               tr
                 td 
-                  p.text-center.mb-0 Euro
+                  p.text-center.mb-0 Euro.
                 td 
                   p.text-center.mb-0 Alemania, Francia, Italia, España, Bélgica, Grecia, Austria, Irlanda, Finlandia, Portugal, Eslovaquia, Malta, Países Bajos, Chipre.
                 td 
                   p.text-center.mb-0 #[b EUR]
               tr(style="background-color: #FFFAE7")
                 td 
-                  p.text-center.mb-0 Peso chileno
+                  p.text-center.mb-0 Peso chileno.
                 td 
-                  p.text-center.mb-0 Chile
+                  p.text-center.mb-0 Chile.
                 td 
                   p.text-center.mb-0 #[b CLP]
               tr
                 td 
-                  p.text-center.mb-0 Peso mexicano
+                  p.text-center.mb-0 Peso mexicano.
                 td 
-                  p.text-center.mb-0 México
+                  p.text-center.mb-0 México.
                 td 
                   p.text-center.mb-0 #[b MXN]
               tr(style="background-color: #FFFAE7")
                 td 
-                  p.text-center.mb-0 Peso argentino
+                  p.text-center.mb-0 Peso argentino.
                 td 
-                  p.text-center.mb-0 Argentina
+                  p.text-center.mb-0 Argentina.
                 td 
                   p.text-center.mb-0 #[b ARS]
               tr
                 td 
-                  p.text-center.mb-0 Real
+                  p.text-center.mb-0 Real.
                 td 
-                  p.text-center.mb-0 Brasil
+                  p.text-center.mb-0 Brasil.
                 td 
                   p.text-center.mb-0 #[b BRL]
               tr(style="background-color: #FFFAE7")
                 td 
-                  p.text-center.mb-0 Yen japonés
+                  p.text-center.mb-0 Yen japonés.
                 td 
-                  p.text-center.mb-0 Japón
+                  p.text-center.mb-0 Japón.
                 td 
                   p.text-center.mb-0 #[b JPY]
     p Dentro del tema de precios se manejan los #[span.txt-color1 descuentos], los que están determinados por disminuciones en los precios de lista (precios de referencia o precios base) que concede la empresa a sus clientes, estos son porcentajes (%) los establecen las organizaciones según su estructura de costos para generar más ventas; y se realizan como consecuencia de negociaciones puntuales, necesidad de salir de inventarios, lanzamiento de productos o captación de nuevos clientes o mercados. 
@@ -172,7 +172,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p #[b Descuentos financieros]
-              p son aquellos que tienen como finalidad obtener el pago del dinero por parte del cliente a la mayor brevedad posible, dado que representa para la empresa capital de trabajo, es decir, los recursos con los que debe contar la organización para poder operar (ya sea para producir el bien o prestar el servicio, según sea el caso), lo anterior, bajo la lógica a menor tiempo de pago mayor descuento.
+              p Son aquellos que tienen como finalidad obtener el pago del dinero por parte del cliente a la mayor brevedad posible, dado que representa para la empresa capital de trabajo, es decir, los recursos con los que debe contar la organización para poder operar (ya sea para producir el bien o prestar el servicio, según sea el caso), lo anterior, bajo la lógica a menor tiempo de pago mayor descuento.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img6.svg')})`}")
       .col-lg-5
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #EBE3F9")
@@ -180,18 +180,12 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p #[b Descuentos comerciales]
-              p son el tipo de descuento que tiene por fin, no solo asegurar las mejores condiciones para un cierre de ventas, sino, además, generar relaciones de largo plazo con el cliente, ya que al aplicarlos él percibirá que la empresa lo trata de forma preferencial.
+              p Son el tipo de descuento que tiene por fin, no solo asegurar las mejores condiciones para un cierre de ventas, sino, además, generar relaciones de largo plazo con el cliente, ya que al aplicarlos él percibirá que la empresa lo trata de forma preferencial.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.svg')})`}")
-    p La #[span.txt-color1 plaza] es llamada por algunos autores como #[span.txt-color1 distribución], es la variable de la mezcla de mercadeo (Marketing Mix), responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución que son los medios que utilizan las empresas para gestionar el proceso de entrega del producto.
+    p La #[span.txt-color1 plaza] es llamada por algunos autores como #[span.txt-color1 distribución], es la variable de la mezcla de mercadeo (#[i Marketing Mix]), responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución que son los medios que utilizan las empresas para gestionar el proceso de entrega del producto.
     p.mb-5 Los canales de distribución pueden ser:
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones.p-4(titulo="Canal de distribución<br>indirecto")
-        .row
-          .col-lg-7.mb-4.mb-lg-0
-            p.mb-0 Cuando la empresa le entrega directamente el producto al cliente, se conoce también como canal cero (0) y se caracteriza por no tener intermediarios. Algunos ejemplos de ellos son: las ventas que realizan los tenderos en sus tiendas, una emprendedora que comercializa sus productos en su tienda virtual o una contadora que vende sus servicios a sus familiares.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema1/img9.png', style="width: 450px").m-auto
+      
       .tarjeta.color-acento-botones.p-4(titulo="Canal de distribución<br>directo")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -199,6 +193,13 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img8.png', style="width: 450px").m-auto
+      .tarjeta.color-acento-botones.p-4(titulo="Canal de distribución<br>indirecto")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            p.mb-0 Este funciona cuando la empresa requiere o elige tener intermediarios en la cadena de distribución. La ventaja de este canal frente al canal directo es que la empresa llega a mayor cantidad de clientes, la desventaja es que los costos se incrementan y, por ende, puede aumentar el precio del producto. Dentro del canal de distribución indirecto, pueden darse canales cortos o largos.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img9.png', style="width: 450px").m-auto
       .tarjeta.color-acento-botones.p-4(titulo="Canal corto")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -273,6 +274,7 @@ export default {
 .tarjeta-up
   overflow: hidden
   position: relative
+  height: 206px
   .tarjeta-up__content
     position: absolute
     bottom: -106%

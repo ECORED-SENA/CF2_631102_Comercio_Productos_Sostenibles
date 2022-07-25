@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El social media marketing es la acción de crear contenido para promocionar un negocio y productos en varias redes sociales como Facebook, Instagram y Twitter. El material creado debe ser único y adaptarse a la plataforma en la que se comparte para ayudar a impulsar las conversiones y aumentar el conocimiento de marca (Santos, 2020).
+            p.mb-0 El social media #[i marketing] es la acción de crear contenido para promocionar un negocio y productos en varias redes sociales como Facebook, Instagram y Twitter. El material creado debe ser único y adaptarse a la plataforma en la que se comparte para ayudar a impulsar las conversiones y aumentar el conocimiento de marca (Santos, 2020).
     .row.bg-color12
       .col-12.px-5
         .row.mb-3
@@ -26,7 +26,7 @@
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        p.mb-5 En la actualidad es una de las estrategias de marketing digital más usadas a nivel mundial obteniendo resultados positivos en corto tiempo con una inversión mínima, pues logra llegar a un gran número de posibles clientes potenciales de forma masiva, pero siempre teniendo en cuenta los gustos y preferencias de estos.
+        p.mb-5 En la actualidad es una de las estrategias de #[i marketing] digital más usadas a nivel mundial obteniendo resultados positivos en corto tiempo con una inversión mínima, pues logra llegar a un gran número de posibles clientes potenciales de forma masiva, pero siempre teniendo en cuenta los gustos y preferencias de estos.
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
             figure
@@ -107,7 +107,7 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Pasos para implementar una estrategia de #[i social media marketing]
-    p.mb-5 A continuación, se hará un resumen del paso a paso que se debe tener en cuenta para que la estrategia de social media marketing tenga éxito:
+    p.mb-5 A continuación, se hará un resumen del paso a paso que se debe tener en cuenta para que la estrategia de social media #[i marketing] tenga éxito:
     .row.bg-color13
       .col-12.px-5
         PasosA.color-primario(tipo="n")
