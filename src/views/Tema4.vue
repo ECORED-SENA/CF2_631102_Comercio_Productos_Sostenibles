@@ -9,18 +9,18 @@
     p Es una herramienta donde se apropian los elementos y conceptos básicos del proceso comunicativo de carácter social, para adaptarlos al entorno del mercadeo y las ventas. Los buenos vendedores cada vez se capacitan más y se especializan, entendiendo que para lograr el objetivo: la transacción, deben tenerse en cuenta muchos elementos y uno clave es justamente la comunicación comercial.
     Separador
     #t_4_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Características de la comunicación
     .row.bg-color14.mb-5
-      .col-12.px-5
+      .col-12.px-5(data-aos="fade-right")
         p Para entender cuáles son las características de la comunicación comercial, es necesario recordar antes cuáles son los principales elementos que intervienen en el proceso comunicacional social, es decir, tener presente que el proceso de venta se da a través de dos seres humanos, donde cada uno es un mundo arraigado a sus principios y comportamientos. 
         p.mb-5 Dado lo anterior, los elementos que intervienen en el proceso de comunicación son:
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-right")
           .col-lg-6
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
               .tarjeta.color-cuarto.p-3(x="50.9%" y="5.6%" numero="")
                 p.mb-0 #[b Mensaje]
                 p.mb-0 Es lo que se quiere comunicar, es la información que se desea transmitir. En términos comerciales es la presentación del portafolio y la aplicación del argumentario de venta.
@@ -75,7 +75,7 @@
         p Una buena comunicación comercial debe permitir llegar al #[b cierre de la venta].
     Separador
     #t_4_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Aplicabilidad
     p.mb-5 La comunicación comercial tiene aplicabilidad en todos los momentos de la venta, dado que mientras exista la relación del cliente con la empresa siempre habrá oportunidad de contacto; es por ello que se debe tener presente que durante todo el ciclo de venta se aplica el proceso comunicativo. A continuación, se presentan ejemplos en cada una de las etapas de este ciclo:
     .row.bg-color22.justify-content-center

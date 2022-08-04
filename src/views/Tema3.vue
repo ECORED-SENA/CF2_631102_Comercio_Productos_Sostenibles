@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span(style="color:#FFFFFF") 3
       h1 #[i Social Media Marketing]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -25,13 +25,13 @@
                   h3.text-center Redes Sociales
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
         p.mb-5 En la actualidad es una de las estrategias de #[i marketing] digital más usadas a nivel mundial obteniendo resultados positivos en corto tiempo con una inversión mínima, pues logra llegar a un gran número de posibles clientes potenciales de forma masiva, pero siempre teniendo en cuenta los gustos y preferencias de estos.
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/img1.svg', style="width: 350px").m-auto
-          .col-lg-8
+              img(src='@/assets/curso/tema3/img1.svg', style="width: 350px").m-auto(data-aos="fade-right")
+          .col-lg-8(data-aos="fade-left")
             .p-4.bg-white
               p.mb-0 Para lograr el buen resultado del que se habló anteriormente, es necesario tener muy claro a qué público se quiere llegar, cuáles son las características y necesidades del prototipo de cliente ideal para establecer la red más apropiada en la que se logre la interacción entre el cliente y la marca.
         p.text-center.mb-5 #[b A continuación, se relacionan las estadísticas y aspectos más importantes de algunas de las redes sociales:]
@@ -89,7 +89,7 @@
             td
     Separador
     #t_3_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Beneficios del #[i social media marketing]
     p.mb-5 En el siguiente video se profundizarán los beneficios del uso de redes sociales:
     .tarjeta.color-terciario.p-4.p-md-5
@@ -105,12 +105,12 @@
           img(src="@/assets/curso/tema3/img3.svg")
     Separador
     #t_3_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Pasos para implementar una estrategia de #[i social media marketing]
     p.mb-5 A continuación, se hará un resumen del paso a paso que se debe tener en cuenta para que la estrategia de social media #[i marketing] tenga éxito:
     .row.bg-color13.justify-content-center
       .col-10.px-5
-        PasosA.color-primario(tipo="n")
+        PasosA.color-primario(tipo="n")(data-aos="fade-right")
           .row.align-items-center
             .col-lg-7.mb-4.mb-lg-0
               p #[b Identificar el prototipo de cliente ideal]
@@ -122,7 +122,7 @@
           .row.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema3/img3.png', style="width: 280px").m-auto
+                img(src='@/assets/curso/tema3/img3.png', style="width: 280px").m-auto(data-aos="fade-right")
             .col-lg-7
               p #[b Elegir las redes sociales]
               p Primero se debe tener muy claro cuáles son las características y cualidades del cliente ideal, para abordar de manera adecuada sus necesidades e intereses.

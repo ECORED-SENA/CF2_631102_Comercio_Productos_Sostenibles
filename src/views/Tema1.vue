@@ -7,7 +7,7 @@
         span(style="color:#FFFFFF") 1
       h1 #[i Marketing Mix]
     p.mb-5  La #[span.txt-color1 mezcla de mercadeo]  (#[i Marketing Mix] en inglés) conocida comercialmente como las cuatro P (producto, precio, plaza y promoción), la cual representa la base conceptual para la implementación de las estrategias de mercadeo, fueron creadas por Jerome McCarthy alrededor del año 1970 y son cuatro variables sobre las cuales se fundamentan el qué hacer del proceso de mercadeo dentro de las empresas; en este sentido, un reto para las personas de mercadeo consiste en encontrar la mejor combinación posible, asegurando que las cuatro P se incorporen en el día a día de la gestión comercial de la compañía.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-9.bg-color1
         .p-4
           p.text-center.mb-0 Las variables (cuatro P) que conforman la mezcla de mercadeo se describen a continuación:
@@ -17,34 +17,34 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-content-center.justify-content-center.align-items-center
               p.mb-0 #[b Producto]: aquello que se ofrece en el mercado.
       .col-10.col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-content-center.justify-content-center.align-items-center
               p.mb-0 #[b Precio]: valor monetario de la transacción.
       .col-10.col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-content-center.justify-content-center.align-items-center
               p.mb-0 #[b Plaza]: está asociada a los canales de distribución, cómo se asegura que el producto llegue a manos del cliente.
       .col-10.col-lg
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img4.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-content-center.justify-content-center.align-items-center
               p.mb-0 #[b Promoción (comunicación)]: está relacionada con aquellos aspectos  tácticos enfocados en la marca y en la comunicación de la oferta de valor.
     
     p.mb-5 Respecto a la mezcla de mercadeo, es importante aclarar que estas variables constituyen lo mínimo que debe asegurar una empresa, y dado que el mercadeo ha ido evolucionando, algunos autores mencionan 7 P, otros, incluso, indican que el mercadeo ahora debería enfocarse en lo digital, sin embargo, pareciera haber consenso en la relevancia que tiene para una empresa y especialmente, para las personas de mercadeo y ventas, entender el funcionamiento de estos componentes.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
           )
@@ -89,9 +89,9 @@
                 figure
                   img(src='@/assets/curso/tema1/img6.png')
     p.mb-5 El #[span.txt-color1 precio] es una variable de alto interés para el mercadeo y las ventas, dado que es la única variable de la mezcla que genera ingresos (es decir, entradas de dinero para la compañía); se interpreta como la cantidad de dinero que el cliente va a pagar a la empresa a cambio de obtener por parte de esta el producto que requiere.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10.bg-color2.py-3
-        .row
+        .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img5.svg', style="width: 350px").m-auto
@@ -188,7 +188,6 @@
     p La #[span.txt-color1 plaza] es llamada por algunos autores como #[span.txt-color1 distribución], es la variable de la mezcla de mercadeo (#[i Marketing Mix]), responsable de hacer que el producto llegue a las manos del cliente. Como consecuencia de este concepto, surgen los canales de distribución que son los medios que utilizan las empresas para gestionar el proceso de entrega del producto.
     p.mb-5 Los canales de distribución pueden ser:
     TabsA.color-acento-botones.mb-5
-      
       .tarjeta.color-acento-botones.p-4(titulo="Canal de distribución<br>directo")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -218,10 +217,10 @@
             figure
               img(src='@/assets/curso/tema1/img11.png', style="width: 450px").m-auto
     p.text-center.mb-5 En el siguiente esquema se presentan los ejemplos.
-    .row.fondo1.ampliarambos.justify-content-center.mb-5
-      .col-lg-10
+    .row.fondo1.ampliarambos.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-10-md-5.px-5
         figure
-          img(src='@/assets/curso/tema1/img8.svg')
+          img(src='@/assets/curso/tema1/img8.svg')(data-aos="fade-right")
     p.mb-5 #[span.txt-color1 La promoción] hace alusión a la forma como la empresa plantea sus estrategias para comunicar su marca y productos a los clientes, suele ser una variable bastante densa, dado que dentro de ella tiene sus propios componentes, denominados en conjunto “mezcla de comunicación”, la cual tiene básicamente los siguientes elementos: publicidad, relaciones públicas y propaganda.
     .row.justify-content-center
       .col-lg-10
@@ -229,26 +228,26 @@
           .col-12.bg-color4
             .p-4
               .row.align-items-center
-                .col-lg-2
+                .col-lg-2.mb-4
                   figure
-                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").mx-auto
-                .col
+                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").mx-auto(data-aos="fade-right")
+                .col(data-aos="fade-left")
                   p.mb-0 #[span.txt-color1 ●] Lo más utilizado por las empresas dentro de la promoción es la #[span.txt-color1 publicidad], ya que según la estrategia puede dar alcance a tres objetivos: informar (dar a conocer algo), persuadir (disuadir para que se realice una acción) o recordar (mantener en la mente de los clientes una marca o un producto). Es un mecanismo de comunicación no personal que es pagado por una empresa para presentar y promocionar productos. El reto de la publicidad consiste en llegar a la mayor cantidad de personas al costo más bajo posible.
           .col-12
             .p-4
               .row.align-items-center
-                .col-lg-2
+                .col-lg-2.mb-4
                   figure
-                    img(src='@/assets/curso/tema1/img10.svg', style="width: 80px").mx-auto
-                .col
+                    img(src='@/assets/curso/tema1/img10.svg', style="width: 80px").mx-auto(data-aos="fade-right")
+                .col(data-aos="fade-left")
                   p.mb-0 #[span.txt-color1 ●] Otro aspecto que hace parte de la promoción son las #[span.txt-color1 relaciones públicas], son todas aquellas acciones encaminadas en entablar buenas relaciones con los diversos grupos de interés de la empresa (el Estado, accionistas, periodistas, proveedores, distribuidores, entre otros), con el fin principal de crear buena imagen.
           .col-12.bg-color4
             .p-4
               .row.align-items-center
-                .col-lg-2
+                .col-lg-2.mb-4
                   figure
-                    img(src='@/assets/curso/tema1/img11.svg', style="width: 80px").mx-auto
-                .col
+                    img(src='@/assets/curso/tema1/img11.svg', style="width: 80px").mx-auto(data-aos="fade-right")
+                .col(data-aos="fade-left")
                   p.mb-0 #[span.txt-color1 ●] Finalmente, la #[span.txt-color1 propaganda] es similar a la publicidad, porque consiste en la forma impersonal de estimular la demanda o de influir en la opinión o actitud de un grupo hacia la empresa, a través de una comunicación en medios masivos, la gran diferencia es que usualmente no es pagada por la empresa u organización que se beneficia con ella. Usualmente la propaganda tiene un tinte más asociado a religión, política, opiniones o doctrinas, y no tiene un tinte tan comercial como sí lo tiene la publicidad.
       
 </template>

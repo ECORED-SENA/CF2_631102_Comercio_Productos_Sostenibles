@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span(style="color:#FFFFFF") 5
       h1 Propuesta comercial
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.bg-color23
         p.mb-0 Es el documento que recibe un cliente del vendedor con el que realiza la presentación de la empresa, se referencia la información relevante del producto y se definen las características y condiciones (en caso de que aplique) que tiene la compañía para la venta de sus bienes/servicios.
     p.mb-5 Las propuestas comerciales son muy utilizadas en ventas mayoristas y en ventas empresariales/ institucionales, ya que en ventas al cliente final o al detal (por unidades), el proceso es un poco más informal dado que no suele mediar una propuesta, pues el vendedor presenta su portafolio esperando una aceptación rápida por parte del cliente.
@@ -16,20 +16,20 @@
           .row.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema5/img1.png', style="width: 450px").m-auto
-            .col-lg-7
+                img(src='@/assets/curso/tema5/img1.png', style="width: 450px").m-auto(data-aos="fade-right")
+            .col-lg-7(data-aos="fade-left")
               p La propuesta comercial es importante por varias razones:
               p.mb-0 #[span.txt-color1 ●] Formaliza el proceso comercial, es decir, muestra estructura por parte de la empresa y el vendedor.      
               p.mb-0 #[span.txt-color1 ●] Sirve de soporte para cada una de las partes (empresa-cliente) en el momento de tener inquietudes respecto a lo ofrecido/ adquirido y permite ser una herramienta de comparación entre alternativas por parte del cliente.
     p.mb-5 El responsable de realizar la propuesta comercial es el vendedor, no obstante, en algunas empresas muy organizadas cuentan con plantillas #[i (templates)] o proforma que se crean para estandarizar y facilitar la labor comercial.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/hjNS3NwWYWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hjNS3NwWYWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
     .row.justify-content-center.mb-5
       .col-lg-8.bg-color8
         .p-4
           p.mb-0.text-center Los elementos sugeridos para una propuesta comercial, se muestran en el siguiente recurso.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         ImagenInfografica.color-primario.mb-5
           template(v-slot:imagen)
@@ -118,7 +118,7 @@
                       p.mb-0 #[span.txt-color1 Opciones:] presentar más de una opción permitirá que el cliente se sienta libre de elegir la que más le convenga, este tipo de tácticas pueden ayudar a ofrecer productos y servicios de diferentes gamas y demostrar la capacidad de cubrir cualquier escenario.
       .col-lg-5
         figure.bg-color16
-          img(src='@/assets/curso/tema5/img3.svg', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema5/img3.svg', style="width: 450px").m-auto(data-aos="fade-left")
       
 </template>
 

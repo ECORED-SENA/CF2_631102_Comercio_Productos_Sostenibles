@@ -6,8 +6,8 @@
       .titulo-principal__numero
         span(style="color:#FFFFFF") 2
       h1 Omnicanalidad
-    p.mb-5 Las estrategias de venta omnicanalidad buscan que el cliente encuentre la forma de comprar que más se ajuste a su estilo de vida por diferentes canales o plataformas digitales de forma sincrónica. Lo importante es mejorar la experiencia y beneficios del consumidor, por este motivo, para esta estrategia es importante contar con los datos constantes del cliente, no importa donde esté y qué tecnología esté utilizando el cliente para aplicar una estrategia de Omnicanalidad.
-    .row.mb-5
+    p.mb-5(data-aos="fade-right") Las estrategias de venta omnicanalidad buscan que el cliente encuentre la forma de comprar que más se ajuste a su estilo de vida por diferentes canales o plataformas digitales de forma sincrónica. Lo importante es mejorar la experiencia y beneficios del consumidor, por este motivo, para esta estrategia es importante contar con los datos constantes del cliente, no importa donde esté y qué tecnología esté utilizando el cliente para aplicar una estrategia de Omnicanalidad.
+    .row.mb-5(data-aos="fade-right")
       .col-lg.mb-4.mb-lg-0
         .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right
@@ -99,7 +99,7 @@
                 span.carousel-control-next-icon(aria-hidden='true')
                 span.visually-hidden Next
             p Para complementar el concepto de omnicanalidad, lo invitamos a visitar el video Omnicanalidad & Logística en concepto logístico, el cual se encuentra en el material complementario.
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-lg-6.bg-color7
         .p-3
           .row.align-items-center
@@ -109,31 +109,31 @@
     p.mb-5 Para desarrollar estrategias de omnicanalidad, es importante manejar diferentes herramientas tecnológicas y coordinar el manejo de la información que será enviada logrando una relación permanente cliente-marca. Seguidamente, los principales beneficios que se obtienen con la omnicanalidad son:
     .row.mb-5
       .col-md-6.col-lg.tarjeta.bg-color8.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
-            img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop')(data-aos="fade-right")
         p.mb-0 #[b Branding]
         p La marca se da a conocer por los diferentes canales de comunicación.
       .col-md-6.col-lg.tarjeta.bg-color9.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
             img(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop')
         p.mb-0 #[b Productividad]
         p Permite el control de las acciones y movimientos de la empresa hacia los servicios que presta a los consumidores.
       .col-md-6.col-lg.tarjeta.bg-color10.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
             img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         p.mb-0 #[b Mayores conversiones]
         p El cliente puede definir si quiere compras en la tienda física, e-commerce o redes sociales.
       .col-md-6.col-lg.tarjeta.bg-color11.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
             img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
         p.mb-0 #[b Recopilación de información]
         p Tener los datos de los clientes permite realizar seguimiento a sus preferencias de compras.
     p.text-center.mb-5 En la siguiente imagen se pueden observar los consejos a tener en cuenta en el momento que es utilizada la omnicanalidad.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 4]. Consejos para la Omnicanalidad
