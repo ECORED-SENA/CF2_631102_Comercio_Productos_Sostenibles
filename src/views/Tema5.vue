@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up-right")
       .titulo-principal__numero
         span(style="color:#FFFFFF") 5
       h1 Propuesta comercial
@@ -11,7 +11,7 @@
         p.mb-0 Es el documento que recibe un cliente del vendedor con el que realiza la presentación de la empresa, se referencia la información relevante del producto y se definen las características y condiciones (en caso de que aplique) que tiene la compañía para la venta de sus bienes/servicios.
     p.mb-5 Las propuestas comerciales son muy utilizadas en ventas mayoristas y en ventas empresariales/ institucionales, ya que en ventas al cliente final o al detal (por unidades), el proceso es un poco más informal dado que no suele mediar una propuesta, pues el vendedor presenta su portafolio esperando una aceptación rápida por parte del cliente.
     .row.justify-content-center.bg-color24.mb-5
-      .col-10
+      .col-lg-10
         .p-4
           .row.align-items-center
             .col-lg-5.mb-4.mb-lg-0
@@ -59,7 +59,7 @@
                       img(src='@/assets/curso/tema5/img4.svg', style="width: 70px").m-auto
                 .row
                   .col-12.bg-color25
-                    .px-4.pb-4.pt-5
+                    .px-3.pb-4.pt-5
                       p.mb-0 #[span.txt-color1 Diseño y presentación:] la parte visual es importante, por lo cual es recomendable que la propuesta de servicios se entregue en una carpeta con el logotipo de la empresa y que esté impresa en papel membretado; además, todos los archivos adjuntos, ya sean gráficos, imágenes u hojas de cálculo, deben tener una buena resolución y ser legibles. 
           .tarjeta.px-4.pb-4
             .row
@@ -81,7 +81,7 @@
                       img(src='@/assets/curso/tema5/img6.svg', style="width: 70px").m-auto
                 .row
                   .col.bg-color25
-                    .px-4.pb-4.pt-5
+                    .px-3.pb-4.pt-5
                       p.mb-0 #[span.txt-color1 Redacción:] se debe utilizar un lenguaje sencillo y comprensible para que todos los implicados en el negocio puedan entenderlo con claridad; destacar los beneficios del producto o servicio en negrita puede ser una gran ayuda para que el prospecto se centre en ellos. El uso de gráficos en esta parte hará que la lectura sea más fácil y agradable.
           .tarjeta.px-4.pb-4
             .row
@@ -105,6 +105,17 @@
                   .col.bg-color25
                     .px-4.pb-4.pt-5
                       p.mb-0 #[span.txt-color1 Calendario:] estipular fechas de entrega de lo acordado es fundamental para que el cliente potencial confíe, por lo cual no se debe prometer algo que no se va a cumplir. Entregar un cronograma de trabajo bien diseñado dará seriedad y mayor credibilidad.
+          .tarjeta.px-4.pb-4
+            .row
+              .col-12
+                .row.justify-content-center
+                  .col-auto
+                    .fig-position
+                      img(src='@/assets/curso/tema5/img9.svg', style="width: 70px").m-auto
+                .row
+                  .col.bg-color25
+                    .px-4.pb-4.pt-5
+                      p.mb-0 #[span.txt-color1 Opciones:] presentar más de una opción permitirá que el cliente se sienta libre de elegir la que más le convenga, este tipo de tácticas pueden ayudar a ofrecer productos y servicios de diferentes gamas y demostrar la capacidad de cubrir cualquier escenario.
       .col-lg-5
         figure.bg-color16
           img(src='@/assets/curso/tema5/img3.svg', style="width: 450px").m-auto

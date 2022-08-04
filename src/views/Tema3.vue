@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up-right")
       .titulo-principal__numero
         span(style="color:#FFFFFF") 3
       h1 #[i Social Media Marketing]
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
@@ -22,7 +22,7 @@
               .row.align-items-center
                 .col-2
                 .col-auto
-                  p #[b Redes Sociales]
+                  h3.text-center Redes Sociales
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -108,8 +108,8 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2 Pasos para implementar una estrategia de #[i social media marketing]
     p.mb-5 A continuación, se hará un resumen del paso a paso que se debe tener en cuenta para que la estrategia de social media #[i marketing] tenga éxito:
-    .row.bg-color13
-      .col-12.px-5
+    .row.bg-color13.justify-content-center
+      .col-10.px-5
         PasosA.color-primario(tipo="n")
           .row.align-items-center
             .col-lg-7.mb-4.mb-lg-0

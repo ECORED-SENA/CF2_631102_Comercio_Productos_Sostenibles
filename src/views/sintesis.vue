@@ -5,7 +5,7 @@
 
     p.mb-5 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo: 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")

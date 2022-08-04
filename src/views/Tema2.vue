@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up-right")
       .titulo-principal__numero
         span(style="color:#FFFFFF") 2
       h1 Omnicanalidad
@@ -43,7 +43,7 @@
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='9' aria-label='Slide 10')
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='10' aria-label='Slide 11')
                 button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='11' aria-label='Slide 12')
-              .carousel-inner
+              .carousel-inner.mb-5
                 .carousel-item.active
                   figure
                     img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
@@ -54,7 +54,7 @@
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
-                    img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema2/img4.jpg', alt='Texto que describa la imagen')
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
@@ -66,7 +66,7 @@
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
-                    img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema2/img7.jpg', alt='Texto que describa la imagen')
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
@@ -82,11 +82,11 @@
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
-                    img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema2/img11.jpg', alt='Texto que describa la imagen')
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
-                    img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema2/img12.jpg', alt='Texto que describa la imagen')
                     figcaption.bg-color6 Nota: Samsing, 2021.
                 .carousel-item
                   figure
@@ -105,7 +105,7 @@
           .row.align-items-center
             .col-2
             .col-auto
-              p #[b Beneficios de la omnicanalidad]
+              h3.text-center Beneficios de la omnicanalidad
     p.mb-5 Para desarrollar estrategias de omnicanalidad, es importante manejar diferentes herramientas tecnológicas y coordinar el manejo de la información que será enviada logrando una relación permanente cliente-marca. Seguidamente, los principales beneficios que se obtienen con la omnicanalidad son:
     .row.mb-5
       .col-md-6.col-lg.tarjeta.bg-color8.p-4
@@ -142,26 +142,26 @@
         p.mb-5 Es así como el proceso para integrar diferentes canales, tanto físicos como digitales, genera una experiencia no fragmentada de compra a los consumidores y esto permite que la experiencia del cliente empiece en una plataforma y continúe en otros canales sin que se pierda la comunicación anterior. Por lo siguiente podemos nombrar los canales que son más utilizados en la omnicanalidad:
         TabsB.color-acento-botones
           .py-4.py-md-5(titulo="Redes sociales" :icono="require('@/assets/curso/tema2/img8.svg')")
-            .row
-              .col-12
+            .row.justify-content-center
+              .col-10
                 figure.mb-5
                   img(src='@/assets/curso/tema2/img14.png', style="width: 1050px").m-auto
                 p.mb-0 Permite conectividad 24/7, interacción en el momento real con el cliente, obtener información y almacenar datos importantes para la empresa.
           .py-4.py-md-5(titulo="Compras en línea" :icono="require('@/assets/curso/tema2/img9.svg')")
-            .row
-              .col-12
+             .row.justify-content-center
+              .col-10
                 figure.mb-5
                   img(src='@/assets/curso/tema2/img15.png', style="width: 1050px").m-auto
                 p.mb-0 Permite crear experiencias casi personalizadas, definir preferencias y gustos de los consumidores llegando a gran número de segmentos que están permanentemente conectados en internet.
           .py-4.py-md-5(titulo="Autoservicio digital" :icono="require('@/assets/curso/tema2/img10.svg')")
-            .row
-              .col-12
+             .row.justify-content-center
+              .col-10
                 figure.mb-5
                   img(src='@/assets/curso/tema2/img16.png', style="width: 1050px").m-auto
                 p.mb-0 En la era digital, la inteligencia artificial juega un papel muy importante para este tipo de compras porque permite utilizar una red de preguntas. utilizar #[i chatbots] o un agente virtual para que les brinde la información requerida de productos o servicios.
           .py-4.py-md-5(titulo="Teléfonos inteligentes" :icono="require('@/assets/curso/tema2/img11.svg')")
-            .row
-              .col-12
+             .row.justify-content-center
+              .col-10
                 figure.mb-5
                   img(src='@/assets/curso/tema2/img17.png', style="width: 1050px").m-auto
                 p.mb-0 Le permiten al cliente obtener información rápida del portafolio de productos o servicios que ofrece la empresa, su horario de atención, productos disponibles, listas de precios y formas de pago el cual  se puede realizar por mensajes, fotografías, videos, códigos QR. De esta manera el cliente tiene un acceso fácil a la información.

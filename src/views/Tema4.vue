@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up-right")
       .titulo-principal__numero
         span(style="color:#FFFFFF") 4
       h1 Comunicación comercial
@@ -78,8 +78,8 @@
     .titulo-segundo.color-acento-contenido
       h2 4.2 Aplicabilidad
     p.mb-5 La comunicación comercial tiene aplicabilidad en todos los momentos de la venta, dado que mientras exista la relación del cliente con la empresa siempre habrá oportunidad de contacto; es por ello que se debe tener presente que durante todo el ciclo de venta se aplica el proceso comunicativo. A continuación, se presentan ejemplos en cada una de las etapas de este ciclo:
-    .row.bg-color22
-      .col-12.px-5
+    .row.bg-color22.justify-content-center
+      .col-10.px-5
         PasosA.color-primario(tipo="n")
           .row.align-items-center
             .col-lg-7.mb-4.mb-lg-0

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-up-right")
       .titulo-principal__numero
         span(style="color:#FFFFFF") 1
       h1 #[i Marketing Mix]
@@ -11,32 +11,35 @@
       .col-lg-9.bg-color1
         .p-4
           p.text-center.mb-0 Las variables (cuatro P) que conforman la mezcla de mercadeo se describen a continuación:
-    .row.mb-5.justify-content-center
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/tema1/img01.svg", alt= "")
-          .tarjeta-up__content.bg-2
-            h4 Producto:
-            p Aquello que se ofrece en el mercado.
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/tema1/img02.svg", alt= "")
-          .tarjeta-up__content.bg-2
-            h4 Precio:
-            p Está asociada a los canales de distribución, cómo se asegura que el producto llegue a manos del cliente.
-      .col-lg-3.col-auto.mb-3.mb-lg-0
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/tema1/img03.svg", alt= "")
-          .tarjeta-up__content.bg-2
-            h4 Plaza:
-            p Es el cuerpo del reporte, se desarrolla el tema del mismo de manera congruente, ordenada y clara.
-      .col-lg-3.col-auto.mb-3.mb-lg-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/tema1/img04.svg", alt= "")
-          .tarjeta-up__content.bg-2
-            h4 Promoción (comunicación): 
-            p Está relacionada con aquellos aspectos  tácticos enfocados en la marca y en la comunicación de la oferta de valor.
-    
+    .row.justify-content-center.mb-5
+      .col-10.col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.mb-0 #[b Producto]: aquello que se ofrece en el mercado.
+      .col-10.col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.mb-0 #[b Precio]: valor monetario de la transacción.
+      .col-10.col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.mb-0 #[b Plaza]: está asociada a los canales de distribución, cómo se asegura que el producto llegue a manos del cliente.
+      .col-10.col-lg
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img4.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.mb-0 #[b Promoción (comunicación)]: está relacionada con aquellos aspectos  tácticos enfocados en la marca y en la comunicación de la oferta de valor.
     
     p.mb-5 Respecto a la mezcla de mercadeo, es importante aclarar que estas variables constituyen lo mínimo que debe asegurar una empresa, y dado que el mercadeo ha ido evolucionando, algunos autores mencionan 7 P, otros, incluso, indican que el mercadeo ahora debería enfocarse en lo digital, sin embargo, pareciera haber consenso en la relevancia que tiene para una empresa y especialmente, para las personas de mercadeo y ventas, entender el funcionamiento de estos componentes.
     .row.justify-content-center.mb-5
@@ -51,42 +54,42 @@
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
             .row.align-items-center
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos tangibles]
                 p Es la definición clásica del producto, constituyen aquellos bienes que se pueden tocar; tienen por como fin satisfacer una necesidad o un gusto. Su proceso de comparación se da detallando las características intrínsecas, es decir, aquellas que son internas y que están asociadas a la producción del bien, por ejemplo: el peso, forma, color, tamaño y las características extrínsecas, que son las externas que se observan fácilmente, tales como: empaque, marca, precio. El proceso de decisión de compra suele ser mucho más corto frente a otro tipo de tipología de productos.
-              .col-lg-4
+              .col-lg-5.ps-4
                 figure
-                  img(src='@/assets/curso/tema1/img2.png', style="width: 350px").m-auto
+                  img(src='@/assets/curso/tema1/img2.png')
             .row.align-items-center
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos intangibles]
                 p Representan los servicios, es decir, aquellos productos que NO se pueden tocar, se caracterizan porque entregan a quien los adquiere un beneficio, su nivel de evaluación puede ser subjetivo, ya que depende de las expectativas que tenga cada cliente. En los intangibles, el proceso para la adquisición puede ser más largo que el asociado a los productos tangibles, dado que no es tan sencillo el proceso de comparación.
-              .col-lg-4
+              .col-lg-5.ps-4
                 figure
-                  img(src='@/assets/curso/tema1/img3.png', style="width: 350px").m-auto
+                  img(src='@/assets/curso/tema1/img3.png')
             .row.align-items-center
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos tipo marcas]
                 p Con la creciente relevancia de los conceptos aspiracionales y moda, surgen las marcas como un tipo de producto más dentro del mercadeo. Hoy, pensar en Nike, Adidas, iPhone, Samsung, Diesel, entre muchas otras, muestran cómo las marcas son claves para los procesos de mercadeo, llegando incluso al concepto de mercadear una marca.
-              .col-lg-4
+              .col-lg-5.ps-4
                 figure
-                  img(src='@/assets/curso/tema1/img4.png', style="width: 350px").m-auto
+                  img(src='@/assets/curso/tema1/img4.png')
             .row.align-items-center
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos tipo personas]
                 p ¿suena raro cierto?, sí… quizá suene extraño, sin embargo, hoy grandes figuras de la política, el deporte, el entretenimiento e incluso los YouTubers son ejemplos de cómo es posible mercadear una persona. Ejemplo: imagínese, ¿cuánto cobra Sofía Vergara por ser la voz en una película de Disney?, ¿cuánto dinero genera Messi o Ronaldo por aparecer en un comercial?, ¿cuánto cobra un cantante de reggaetón por autorizar el uso de su nombre en una colección de ropa?, la respuesta exacta no la sabemos; sin embargo, sí se puede asegurar que son millones de dólares o euros (según sea el caso) y todo eso gracias al poder de su marca personal; por ello, para el mercadeo las personas constituyen un tipo de producto.
-              .col-lg-4
+              .col-lg-5.ps-4
                 figure
-                  img(src='@/assets/curso/tema1/img5.png', style="width: 350px").m-auto
+                  img(src='@/assets/curso/tema1/img5.png')
             .row.align-items-center
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos tipo lugares]
                 p Los sitios asociados a diferentes áreas temáticas (culturales, deportivos, religiosos, de entretenimiento), son también importantes para el mercadeo, ya que son valorados positivamente por los consumidores, quiénes están dispuestos a pagar en algunos casos, incluso, importantes sumas de dinero por conocer o visitar dichos lugares. Algunos ejemplos: entrada al museo del Louvre, en Francia; entrada a La Bombonera, en Argentina; entrada al Museo del Oro, en Bogotá.
-              .col-lg-4
+              .col-lg-5.ps-4
                 figure
-                  img(src='@/assets/curso/tema1/img6.png', style="width: 350px").m-auto
+                  img(src='@/assets/curso/tema1/img6.png')
     p.mb-5 El #[span.txt-color1 precio] es una variable de alto interés para el mercadeo y las ventas, dado que es la única variable de la mezcla que genera ingresos (es decir, entradas de dinero para la compañía); se interpreta como la cantidad de dinero que el cliente va a pagar a la empresa a cambio de obtener por parte de esta el producto que requiere.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.bg-color2.py-3
         .row
           .col-lg-4.mb-4.mb-lg-0
@@ -215,10 +218,10 @@
             figure
               img(src='@/assets/curso/tema1/img11.png', style="width: 450px").m-auto
     p.text-center.mb-5 En el siguiente esquema se presentan los ejemplos.
-    .row.bg-color3.mb-5
-      .col-12
+    .row.fondo1.ampliarambos.justify-content-center.mb-5
+      .col-lg-10
         figure
-          img(src='@/assets/curso/tema1/img8.svg', style="width: 1050px").m-auto
+          img(src='@/assets/curso/tema1/img8.svg')
     p.mb-5 #[span.txt-color1 La promoción] hace alusión a la forma como la empresa plantea sus estrategias para comunicar su marca y productos a los clientes, suele ser una variable bastante densa, dado que dentro de ella tiene sus propios componentes, denominados en conjunto “mezcla de comunicación”, la cual tiene básicamente los siguientes elementos: publicidad, relaciones públicas y propaganda.
     .row.justify-content-center
       .col-lg-10
@@ -226,25 +229,25 @@
           .col-12.bg-color4
             .p-4
               .row.align-items-center
-                .col-auto
+                .col-lg-2
                   figure
-                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").m-auto
+                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").mx-auto
                 .col
                   p.mb-0 #[span.txt-color1 ●] Lo más utilizado por las empresas dentro de la promoción es la #[span.txt-color1 publicidad], ya que según la estrategia puede dar alcance a tres objetivos: informar (dar a conocer algo), persuadir (disuadir para que se realice una acción) o recordar (mantener en la mente de los clientes una marca o un producto). Es un mecanismo de comunicación no personal que es pagado por una empresa para presentar y promocionar productos. El reto de la publicidad consiste en llegar a la mayor cantidad de personas al costo más bajo posible.
           .col-12
             .p-4
               .row.align-items-center
-                .col-auto
+                .col-lg-2
                   figure
-                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").m-auto
+                    img(src='@/assets/curso/tema1/img10.svg', style="width: 80px").mx-auto
                 .col
                   p.mb-0 #[span.txt-color1 ●] Otro aspecto que hace parte de la promoción son las #[span.txt-color1 relaciones públicas], son todas aquellas acciones encaminadas en entablar buenas relaciones con los diversos grupos de interés de la empresa (el Estado, accionistas, periodistas, proveedores, distribuidores, entre otros), con el fin principal de crear buena imagen.
           .col-12.bg-color4
             .p-4
               .row.align-items-center
-                .col-auto
+                .col-lg-2
                   figure
-                    img(src='@/assets/curso/tema1/img9.svg', style="width: 80px").m-auto
+                    img(src='@/assets/curso/tema1/img11.svg', style="width: 80px").mx-auto
                 .col
                   p.mb-0 #[span.txt-color1 ●] Finalmente, la #[span.txt-color1 propaganda] es similar a la publicidad, porque consiste en la forma impersonal de estimular la demanda o de influir en la opinión o actitud de un grupo hacia la empresa, a través de una comunicación en medios masivos, la gran diferencia es que usualmente no es pagada por la empresa u organización que se beneficia con ella. Usualmente la propaganda tiene un tinte más asociado a religión, política, opiniones o doctrinas, y no tiene un tinte tan comercial como sí lo tiene la publicidad.
       
