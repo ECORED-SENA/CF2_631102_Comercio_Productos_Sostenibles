@@ -25,7 +25,7 @@
                   h3.text-center Redes Sociales
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ePCu8Jro_K8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
         p.mb-5 En la actualidad es una de las estrategias de #[i marketing] digital más usadas a nivel mundial obteniendo resultados positivos en corto tiempo con una inversión mínima, pues logra llegar a un gran número de posibles clientes potenciales de forma masiva, pero siempre teniendo en cuenta los gustos y preferencias de estos.
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
