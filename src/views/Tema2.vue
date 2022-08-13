@@ -112,7 +112,7 @@
         .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
             img(src='@/assets/curso/tema2/img3.svg' alt='AvatarTop')(data-aos="fade-right")
-        p.mb-0 #[b Branding]
+        h5 #[i Branding]
         p La marca se da a conocer por los diferentes canales de comunicación.
       .col-md-6.col-lg.tarjeta.bg-color9.p-4
         .row.justify-content-center.mb-3(data-aos="fade-right")
@@ -158,7 +158,7 @@
               .col-10
                 figure.mb-5
                   img(src='@/assets/curso/tema2/img16.png', style="width: 1050px").m-auto
-                p.mb-0 En la era digital, la inteligencia artificial juega un papel muy importante para este tipo de compras porque permite utilizar una red de preguntas. utilizar #[i chatbots] o un agente virtual para que les brinde la información requerida de productos o servicios.
+                p.mb-0 En la era digital, la inteligencia artificial juega un papel muy importante para este tipo de compras porque permite utilizar una red de preguntas. Utilizar #[i chatbots] o un agente virtual para que les brinde la información requerida de productos o servicios.
           .py-4.py-md-5(titulo="Teléfonos inteligentes" :icono="require('@/assets/curso/tema2/img11.svg')")
              .row.justify-content-center
               .col-10

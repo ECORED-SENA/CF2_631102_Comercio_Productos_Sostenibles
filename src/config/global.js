@@ -151,8 +151,8 @@ export default {
         'https://www.pragma.com.co/blog/omnicanalidad-vs-multicanalidad-cual-es-la-mejor-opcion-para-mi-empresa#:~:text=La%20omnicanalidad%20y%20la%20multicanalidad,cada%20vez%20m%C3%A1s%20precisa%20y',
     },
     {
-      tema: 'Social media <em>Marketing</em>',
-      referencia: 'MeliDesign. (2021). Social media <em>marketing</em>. ',
+      tema: '<i>Social media marketing</i>',
+      referencia: 'MeliDesign. (2021). <i>Social media marketing</i>. ',
       tipo: 'Video',
       link: 'https://youtu.be/bJjWIubOCTw',
     },
@@ -168,8 +168,7 @@ export default {
       referencia:
         'Asesor Empresario - Asesuisa. (2021). Metodología - Qué debe de incluir una propuesta comercial exitosa.',
       tipo: 'Video',
-      link:
-        'Asesor Empresario - Asesuisa. (2021). Metodología - Qué debe de incluir una propuesta comercial exitosa',
+      link: 'https://youtu.be/iACzc6PyxYE',
     },
   ],
   glosario: [
@@ -260,7 +259,7 @@ export default {
     },
     {
       referencia:
-        'Santos, D. (2020). Social media marketing: todo lo que debes saber para implementarlo en tu empresa.',
+        'Santos, D. (2020). <i>Social media marketing</i>: todo lo que debes saber para implementarlo en tu empresa.',
       link: 'https://blog.hubspot.es/marketing/social-media-marketing',
     },
   ],
@@ -316,8 +315,26 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -328,23 +345,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

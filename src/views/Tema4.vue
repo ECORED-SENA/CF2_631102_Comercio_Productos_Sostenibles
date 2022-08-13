@@ -45,7 +45,7 @@
           .p-4
             .row.justify-content-end
               .col-lg-11
-                p.mb-0 Un agente de ventas que trabaja en un Contact Center contacta a un cliente potencial para ofrecerle un seguro. En este caso, el vendedor, es el emisor, el cliente representa el receptor, el canal es el teléfono, el contenido es la propuesta comercial que le presenta y el código son las palabras y tecnicismos que utiliza para transmitir la información de una forma comprensible.
+                p.mb-0 Un agente de ventas que trabaja en un #[i Contact Center] contacta a un cliente potencial para ofrecerle un seguro. En este caso, el vendedor, es el emisor, el cliente representa el receptor, el canal es el teléfono, el contenido es la propuesta comercial que le presenta y el código son las palabras y tecnicismos que utiliza para transmitir la información de una forma comprensible.
     p.mb-5 A continuación, se referencia una forma de entender las características de la comunicación comercial:
     .row
       .col-md-6.col-lg.tarjeta.bg-color17.p-4

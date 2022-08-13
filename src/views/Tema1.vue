@@ -77,7 +77,7 @@
             .row.align-items-center
               .col-lg-7.mb-4.mb-lg-0.ps-5
                 p #[b Productos tipo personas]
-                p ¿suena raro cierto?, sí… quizá suene extraño, sin embargo, hoy grandes figuras de la política, el deporte, el entretenimiento e incluso los YouTubers son ejemplos de cómo es posible mercadear una persona. Ejemplo: imagínese, ¿cuánto cobra Sofía Vergara por ser la voz en una película de Disney?, ¿cuánto dinero genera Messi o Ronaldo por aparecer en un comercial?, ¿cuánto cobra un cantante de reggaetón por autorizar el uso de su nombre en una colección de ropa?, la respuesta exacta no la sabemos; sin embargo, sí se puede asegurar que son millones de dólares o euros (según sea el caso) y todo eso gracias al poder de su marca personal; por ello, para el mercadeo las personas constituyen un tipo de producto.
+                p ¿Suena raro cierto?, sí… quizá suene extraño, sin embargo, hoy grandes figuras de la política, el deporte, el entretenimiento e incluso los YouTubers son ejemplos de cómo es posible mercadear una persona. Ejemplo: imagínese, ¿cuánto cobra Sofía Vergara por ser la voz en una película de Disney?, ¿cuánto dinero genera Messi o Ronaldo por aparecer en un comercial?, ¿cuánto cobra un cantante de reggaetón por autorizar el uso de su nombre en una colección de ropa?, la respuesta exacta no la sabemos; sin embargo, sí se puede asegurar que son millones de dólares o euros (según sea el caso) y todo eso gracias al poder de su marca personal; por ello, para el mercadeo las personas constituyen un tipo de producto.
               .col-lg-5.ps-4
                 figure
                   img(src='@/assets/curso/tema1/img5.png')

@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El social media #[i marketing] es la acción de crear contenido para promocionar un negocio y productos en varias redes sociales como Facebook, Instagram y Twitter. El material creado debe ser único y adaptarse a la plataforma en la que se comparte para ayudar a impulsar las conversiones y aumentar el conocimiento de marca (Santos, 2020).
+            p.mb-0 El #[i social media  marketing] es la acción de crear contenido para promocionar un negocio y productos en varias redes sociales como Facebook, Instagram y Twitter. El material creado debe ser único y adaptarse a la plataforma en la que se comparte para ayudar a impulsar las conversiones y aumentar el conocimiento de marca (Santos, 2020).
     .row.bg-color12
       .col-12.px-5
         .row.mb-3
@@ -66,27 +66,27 @@
           tr
             td(style="background-color: #FFFAE7")
               p.mb-0 #[b Audiencia]
-            td
-            td(style="background-color: #FFE0F0")
-            td
-            td(style="background-color: #FFE0F0")
-            td
+            td Generación X y <em>millennials</em>
+            td(style="background-color: #FFE0F0") Principalmente <em>millennials</em>
+            td Principalmente <em>millennials</em>
+            td(style="background-color: #FFE0F0") <em>Millennials</em>, seguidos de cerca por la generación Z.
+            td <em>Millennials</em>, seguidos de cerca por la generación Z.
           tr
             td(style="background-color: #FFFAE7")
               p.mb-0 #[b Impacto]
-            td
-            td(style="background-color: #FFE0F0")
-            td
-            td(style="background-color: #FFE0F0")
-            td
+            td B2C
+            td(style="background-color: #FFE0F0") B2B y B2C
+            td B2C
+            td(style="background-color: #FFE0F0") B2C
+            td B2C
           tr
             td(style="background-color: #FFFAE7")
               p.mb-0 #[b Ideal]
-            td
-            td(style="background-color: #FFE0F0")
-            td
-            td(style="background-color: #FFE0F0")
-            td
+            td Conocimiento de la marca; publicidad.
+            td(style="background-color: #FFE0F0") Relaciones públicas; servicio al cliente.
+            td Medios de aspecto natural, detrás de escena y contenido generado por el usuario; publicidad.
+            td(style="background-color: #FFE0F0") Conocimiento de la marca; entretenimiento y videos instructivos.
+            td Conocimiento de la marca; publicidad.
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
