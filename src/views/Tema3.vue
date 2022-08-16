@@ -8,7 +8,7 @@
       h1 #[i Social Media Marketing]
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
           )

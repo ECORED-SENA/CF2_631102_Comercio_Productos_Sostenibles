@@ -125,7 +125,7 @@
           .col-4
             img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
         p.mb-0 #[b Mayores conversiones]
-        p El cliente puede definir si quiere compras en la tienda física, e-commerce o redes sociales.
+        p El cliente puede definir si quiere compras en la tienda física, <em>e-commerce</em> o redes sociales.
       .col-md-6.col-lg.tarjeta.bg-color11.p-4
         .row.justify-content-center.mb-3(data-aos="fade-right")
           .col-4
