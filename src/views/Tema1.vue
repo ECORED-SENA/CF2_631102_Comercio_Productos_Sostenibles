@@ -101,7 +101,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1]. Algunas monedas de circulación mundial.
-        .tabla-a.color-primario
+        .tabla-a.color-acento-botones
           table
             caption Nota. Tomada de la clasificación ISO 4217 de las monedas.
             thead
